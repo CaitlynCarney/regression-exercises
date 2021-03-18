@@ -72,5 +72,3 @@ def wrangle_telco():
     '''
     df = clean_telco(acquire.get_telco_data())
     return split_data(df)
-    
-    
